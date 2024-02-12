@@ -1,7 +1,7 @@
 OBSERVAÇÕES
 
 - Por mais que o teste tenha dito que banco de dados não era uma necessidade eu optei por utilzar o H2 como o mesmo para uma correta e mais precisa manipulação de dados. H2 é um BD em memória, então não é necessário a criação do mesmo
-- O desafio não especificou as validalções necessárias para aprovar o pagamento ou o estorno, então tomei a liberdade de criar as validações com base nos critérios que eu achei correto. (Leia as instruções para mais detalhes referentes as regras de negócio)
+- O desafio não especificou as validalções necessárias para aprovar o pagamento ou o estorno, então tomei a liberdade de criar as validações com base nos critérios que eu achei correto. (Leia as REGRAS DE VALIDAÇÃO para mais detalhes referentes as regras de negócio)
 - Tomei também a liberdade de adiocionar o swagger como documentação.
 - Em relação aos teste eu criei apenas para a classe service, pois eu acredito que os testes devem ser aplicadas de forma precisa, somente onde o coração da lógica se encontra.
 
