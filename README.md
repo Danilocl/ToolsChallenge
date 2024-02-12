@@ -9,7 +9,7 @@ OBSERVAÇÕES
 REGRAS DE VALIDAÇÃO
 
 - Id não pode ser repetido
-- cartão deve ter 13 ou 16 dígitos
+- Cartão deve ter 13 ou 16 dígitos
 - Pagamentos parcelados só serão autorazidos para transações acima de R$200
 - Para que um estorno seja bem sucedido é preciso passar o número do cartão e o NSU da transação
 - Estornos só serão autorizado dentro de um prazo de 48 horas
@@ -17,7 +17,7 @@ REGRAS DE VALIDAÇÃO
   
 INSTRUÇÕES
 
-Para garantir um correto funcionamento do banco de dados certifique-se de criar um arquivo "test.mv.db" na pasta de usuários.
+Para garantir um correto funcionamento do banco de dados certifique-se de criar um arquivo chamado "test.mv.db" na raiz da pasta do usuário.
 
 
 - mvn clean install
