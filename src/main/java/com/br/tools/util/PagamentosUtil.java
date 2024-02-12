@@ -67,7 +67,7 @@ public class PagamentosUtil {
 			return false;
 		}
 
-		return numero.length() >= 13 && numero.length() <= 16;
+		return numero.length() == 13 || numero.length() == 16;
 	}
 
 }

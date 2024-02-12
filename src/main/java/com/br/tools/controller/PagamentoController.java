@@ -35,7 +35,7 @@ public class PagamentoController {
 			}
 
 			if (!PagamentosUtil.verificarTamanho(pagamento.getTransacao().getCartao())) {
-				throw new GenericExpression("O cartão precisa ter um mínimo de 13 dígito e um máximo de 16");
+				throw new GenericExpression("O cartão precisa ter 13 ou 16 dígitos");
 			}
 
 			Pagamento response = pagamentoService.efetuarPagamento(pagamento);
