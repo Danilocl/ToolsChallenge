@@ -98,7 +98,7 @@ public class PagamentoController {
 	}
 
 	@GetMapping("/todos")
-	public ResponseEntity<?> buscarPagamentos() {
+	public ResponseEntity<?> buscarTransacoes() {
 		List<Pagamento> response = pagamentoService.buscarTodosPagamentos();
 		if (response.isEmpty()) {
 			return ResponseEntity.badRequest().body(new ErrorResponse("Nenhuma transação efetuada"));
