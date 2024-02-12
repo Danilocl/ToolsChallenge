@@ -5,7 +5,7 @@ OBSERVAÇÕES
 - Tomei também a liberdade de adiocionar o swagger como documentação.
 - Em relação aos teste eu criei apenas para a classe service, pois eu acredito que os testes devem ser aplicadas de forma precisa, somente onde coração da lógica se encontra.
 
-/**************************************************/
+
 
 INSTRUÇÕES
 
@@ -14,7 +14,7 @@ Para garantir um correto funcionamento do banco de dados certifique-se de criar 
 - mvn clean install
 - Executar a classe ToolsAplication como uma aplicação java
 
-/**************************************************/
+
 
 DOCUMENTAÇÃO
 
@@ -24,7 +24,6 @@ http://localhost:8080/swagger
 //documentação crua
 http://localhost:8080/doc
 
-/**************************************************/
 
 Database - h2
 
